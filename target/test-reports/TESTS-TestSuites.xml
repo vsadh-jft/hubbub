@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="vivek-laptop" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="2" time="0.137" timestamp="2014-02-12T09:37:52">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.059" />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.075">
+          <failure message="java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;2&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: java.lang.AssertionError: expected:&lt;3&gt; but was:&lt;2&gt;
+	at com.grailsinaction.PostIntegrationTests.testPostWithTags(PostIntegrationTests.groovy:37)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testFirstPost--
+--Output from testPostWithTags--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testFirstPost--
+--Output from testPostWithTags--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="vivek-laptop" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="2" time="0.258" timestamp="2014-02-12T09:37:52">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.229" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.013" />
+
+      <system-out><![CDATA[--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
